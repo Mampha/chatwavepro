@@ -13,19 +13,19 @@ const HighLightBar = (props: Props) => {
       <div
         className={cn(
           'rounded-full h-2 col-span-1',
-          currentStep == 1 ? 'bg-orange' : 'bg-platinum'
+          currentStep == 1 ? 'bg-[#4634a7]' : 'bg-platinum'
         )}
       ></div>
       <div
         className={cn(
           'rounded-full h-2 col-span-1',
-          currentStep == 2 ? 'bg-orange' : 'bg-platinum'
+          currentStep == 2 ? 'bg-[#4634a7]' : 'bg-platinum'
         )}
       ></div>
       <div
         className={cn(
           'rounded-full h-2 col-span-1',
-          currentStep == 3 ? 'bg-orange' : 'bg-platinum'
+          currentStep == 3 ? 'bg-[#4634a7]' : 'bg-platinum'
         )}
       ></div>
     </div>

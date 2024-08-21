@@ -33,23 +33,25 @@ export default async function Home() {
       <NavBar />
       <section>
         <div className="flex items-center justify-center flex-col mt-[80px] gap-4 ">
-          <span className="text-orange bg-orange/20 px-4 py-2 rounded-full text-sm">
-            An AI powered sales assistant chatbot
+          <span className="text-white bg-[#7964f0] px-4 py-2 rounded-full text-sm">
+           An AI powered sales representative chatbot
           </span>
           <Image
-            src="/images/corinna-ai-logo.png"
+            src="/images/NEXA AI LOGO_prev_ui.png"
             width={500}
             height={100}
             alt="Logo"
             className="max-w-lg object-contain"
           />
           <p className="text-center max-w-[500px]">
-            Your AI powered sales assistant! Embed Corinna AI into any website
-            with just a snippet of code!
+            Transform your website with NEXA: your ultimate AI-powered sales representative. Integrate effortlessly with a simple code snippet and watch your sales soar!
           </p>
-          <Button className="bg-orange font-bold text-white px-4">
+          <Link href="/dashboard">
+            <Button className="bg-[#4634a7] font-bold text-white px-4">
             Start For Free
           </Button>
+          </Link>
+          
           <Image
             src="/images/iphonecorinna.png"
             width={400}
@@ -75,7 +77,7 @@ export default async function Home() {
             })}
           >
             <CardHeader>
-              <CardTitle className="text-orange">{card.title}</CardTitle>
+              <CardTitle className="text-[#4634a7">{card.title}</CardTitle>
               <CardDescription>
                 {pricingCards.find((c) => c.title === card.title)?.description}
               </CardDescription>
@@ -100,7 +102,7 @@ export default async function Home() {
               </div>
               <Link
                 href={`/dashbord?plan=${card.title}`}
-                className="bg-[#f3d299] border-orange border-2 p-2 w-full text-center font-bold rounded-md"
+                className="bg-[#4634a7] border-[#4634a7] border-2 p-2 w-full text-center font-bold rounded-md hover:bg-gray-700 hover:text-white"
               >
                 Get Started
               </Link>

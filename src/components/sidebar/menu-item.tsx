@@ -23,7 +23,7 @@ const MenuItem = ({ size, path, icon, label, current, onSignOut }: Props) => {
               ? 'text-gray-500'
               : current == path
               ? 'bg-white font-bold text-black'
-              : 'text-gray-500'
+              : 'text-gray-500 hover:bg-gray-600 hover:text-white'
           )}
           href={path ? `/${path}` : '#'}
         >

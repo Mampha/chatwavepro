@@ -29,7 +29,7 @@ const UserTypeCard = ({
       <Card
         className={cn(
           'w-full cursor-pointer',
-          userType == value && 'border-orange'
+          userType == value && 'border-[#4634a7]'
         )}
       >
         <CardContent className="flex justify-between p-2">
@@ -37,13 +37,13 @@ const UserTypeCard = ({
             <Card
               className={cn(
                 'flex justify-center p-3',
-                userType == value && 'border-orange'
+                userType == value && 'border-[#4634a7]'
               )}
             >
               <User
                 size={30}
                 className={cn(
-                  userType == value ? 'text-orange' : 'text-gray-400'
+                  userType == value ? 'text-[#4634a7]' : 'text-gray-400'
                 )}
               />
             </Card>
@@ -60,7 +60,7 @@ const UserTypeCard = ({
             <div
               className={cn(
                 'w-4 h-4 rounded-full',
-                userType == value ? 'bg-orange' : 'bg-transparent'
+                userType == value ? 'bg-[#4634a7]' : 'bg-transparent'
               )}
             >
               <Input

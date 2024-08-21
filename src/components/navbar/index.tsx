@@ -8,11 +8,11 @@ function NavBar() {
     <div className="flex gap-5 justify-between items-center px-7 py-1 font-bold border-b border-solid border-zinc-100 leading-[154.5%] max-md:flex-wrap max-md:px-5">
       <div className="flex gap-1.5 justify-center self-stretch my-auto text-2xl tracking-tighter text-neutral-700">
         <Image
-          src="/images/logo.png"
+          src="/images/NEXA AI PROs_prev_ui.png"
           alt="LOGO"
           sizes="100vw"
           style={{
-            width: '100px',
+            width: '150px',
             height: 'auto',
           }}
           width={0}
@@ -28,7 +28,7 @@ function NavBar() {
       </ul>
       <Link
         href="/dashboard"
-        className="bg-orange px-4 py-2 rounded-sm text-white"
+        className="bg-[#4634a7] px-4 py-2 rounded-sm text-white hover:bg-gray-700"
       >
         Free Trial
       </Link>

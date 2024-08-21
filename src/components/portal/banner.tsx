@@ -5,7 +5,7 @@ export const PortalBanner = () => {
   return (
     <div className="w-full bg-muted flex justify-center py-5">
       <Image
-        src="/images/logo.png"
+        src="/images/NEXA AI PROs_prev_ui.png"
         alt="LOGO"
         sizes="100vw"
         style={{
